@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Technopc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 06:13:32 "/>
+        <attribute name="created" value="VGVjaG5vcGM7QUxBQi0wNTsyMDE5LTEwLTI1OyIwNjowOTowMCAiOzI0Mjg="/>
+        <attribute name="edited" value="VGVjaG5vcGM7QUxBQi0wNTsyMDE5LTEwLTI1OyIwNjoxMzozMiAiOzE7MjUzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="2"/>
+            <if expression="a==1&amp;&amp;b==2">
+                <then>
+                    <output expression="&quot;ve ba&#351;ar&#305;l&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ve ba&#351;ar&#305;s&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="a==1||b==0">
+                <then>
+                    <output expression="&quot;veya ba&#351;ar&#305;l&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;veya ba&#351;ar&#305;s&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
